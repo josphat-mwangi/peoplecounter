@@ -60,10 +60,12 @@ button{
     border-radius: 25px;
     cursor: pointer;
 }
-button :hover{
-    background-color: yellow;
-    transition: background-color .5s;
+button:active{
+    width: 90px;
+    
+   
 }
+
 
 #increment-btn{
     grid-area: increment-btn;
